@@ -1,6 +1,38 @@
-# Welcome to your Expo app 👋
+## Wallet Mobile (React Native + Expo) 💸📱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A clean and lightweight personal finance app to track income and expenses. Built with Expo Router and React Native, backed by a Node.js/Express API (Postgres via Neon).  
+
+---
+
+📱 **Cross-Platform App**: Built with React Native & Expo.
+- 🔐 **Authentication**: Signup & login with Clerk.
+- 📩 **Email Verification**: Secure 6-digit code flow before accessing the app.
+- 💸 **Expense Tracker**: Add income or expenses and manage financial entries.
+- 📊 **Balance Updates**: Live calculation of current balance based on transactions.
+- 🗑️ **Delete Transactions**: Remove old entries with a single tap.
+- 🔄 **Pull to Refresh**: Classic refresh gesture implemented from scratch.
+- 🚪 **Logout Functionality**: Easily switch accounts or sign out.
+- 🧰 **Backend with Express**: RESTful API connected to Neon-hosted Postgres.
+
+---
+
+## Demo 🎥🖼️
+
+<img width="400" height="1400" alt="Skärmbild 2025-08-11 094250" src="https://github.com/user-attachments/assets/0e05c210-ba28-43b6-bfa1-f9c95e9f474d" />
+<img width="400" height="1410" alt="Skärmbild 2025-08-11 094155" src="https://github.com/user-attachments/assets/65da2b22-b9b2-4f1d-afb0-fff63e4943cd" />
+<img width="400" height="1405" alt="Skärmbild 2025-08-11 094520" src="https://github.com/user-attachments/assets/914fd5b3-0864-4dd2-b0c5-9ca11f76190e" />
+<img width="400" height="1407" alt="Skärmbild 2025-08-11 094608" src="https://github.com/user-attachments/assets/3f6eec6e-ee68-488a-b0ee-553018e282ab" />
+<img width="400" height="1409" alt="Skärmbild 2025-08-11 094658" src="https://github.com/user-attachments/assets/90ca9029-544d-48ad-bbbe-8961e1b440c7" />
+
+
+
+
+
+
+---
+
+
+
 
 ## Get started
 
@@ -23,28 +55,5 @@ In the output, you'll find options to open the app in a
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
